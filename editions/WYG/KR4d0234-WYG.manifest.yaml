@@ -1,0 +1,44 @@
+canonical_identifier: bkk:krp/KR4d0234/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4d0234/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 格齋四六
+  date: '2015-08-25 00:00:13.087615'
+  source:
+    repository: kanripo
+    path: KR4d0234
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0234_000-WYG.yaml, hash: 'sha256:117702caf4e3a2e5665958cefe971b182636844eafeacc2b28a25f1f16829349'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0234_000-WYG.markers.yaml, hash: 'sha256:708d2bb79dd45b624d4f458139897e790d37887976087f9f28326e114cd87adf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0234_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 316
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0234_WYG_000-3a
+    span:
+    - body
+    - 316
+    - 24888
+  label: 表牋
+  type: section
+  level: 1
+hash: sha256:b3f71c9be27375f2f949a1ea5ef8debe6fa883be7168d81c505e972077b04576
